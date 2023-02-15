@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "AwesomeProject",
-    "slug": "AwesomeProject",
+    "name": "myfirstapp",
+    "slug": "myfirstapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "https://c0.wallpaperflare.com/preview/379/493/189/concept-development-device-flat.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "light"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

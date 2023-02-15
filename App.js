@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+import {
+  TouchableOpacity,
+  View,
+  Text,
+  StyleSheet,
+  TextInput,
+  Button,
+  Image,
+  ScrollView,
+} from "react-native";
+import { StatusBar } from "expo-status-bar";
+import Head from "./components/Head";
+import {TodoApp} from "./components/Todo";
+const App = () => {
+ return (
+    <View style={{marginTop:20,}}>
       <StatusBar style="auto" />
+      <Head />
+      <TodoApp/>
     </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+export default App;
